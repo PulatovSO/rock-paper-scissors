@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  
+  <div class="container">
+
+    <div class="table">
+      <div class="score">
+        <p class="score__label">You</p>
+        <p class="my__score">0</p>
+      </div>
+      <ul class="titles">
+        <li class="title">Rock</li>
+        <li class="title">Paper</li>
+        <li class="title">Scissors</li>
+      </ul>
+      <div class="score">
+        <p class="score__label">Bot</p>
+        <p class="bot__score">0</p>
+      </div>
+    </div>
+
+    <div class="game">
+      <div class="game__inner">
+        <button class="game__char choice"><img class="paper" src="img/paper.png" alt="Paper"></button>
+        <button class="game__char choice"><img class="scissors" src="img/scissors.png" alt="Scissors"></button>
+        <button class="game__char choice"><img class="rock " src="img/rock.png" alt="Rock"></button>
+      </div>
+    </div>
+    <div class="choices">
+      <div class="choices__mine choice">
+        <p class="choice__text">You picked</p>
+        <img class="choice__my-img" src="img/paper.png" alt="Paper">
+      </div>
+      <div class="winner">
+        <h2 class="winner__pos">You Win</h2>
+        <button class="play__btn">Play Again</button>
+      </div>
+      <div class="choices__bot choice">
+        <p class="choice__text">the house picked</p>
+        <img class="choice__bot-img" src="img/scissors.png" alt="Scissors">
+      </div>
+    </div>
+
+  </div>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
