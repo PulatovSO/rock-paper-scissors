@@ -19,17 +19,6 @@ choices.forEach(function (choice) {
     let botChoiceImg = document.querySelector('.choice__bot-img');
     let gameResult = document.querySelector('.winner__pos');
 
-    
-    // if (me !== 'Paper' && me !== 'Scissors') {
-    //   myChoiceImg.src = 'img/rock.png';
-    // } else if (me !== 'Rock' && me !== 'Scissors') {
-    //   myChoiceImg.src = 'img/paper.png';
-    // } else if (me !== 'Paper' && me !== 'Rock') {
-    //   myChoiceImg.src = 'img/scissors.png';
-    // } else {
-    //   false
-    // }
-
     if (me == 'Rock') myChoiceImg.src = 'img/rock.png';
     if (me == 'Paper') myChoiceImg.src = 'img/paper.png';
     if (me == 'Scissors') myChoiceImg.src = 'img/scissors.png';
